@@ -1,0 +1,22 @@
+# Site settings
+title: Alyssa Schroder
+description: >
+  Portfolio website for artist Alyssa Schroder
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "localhost:4000" # the base hostname & protocol for your site
+
+author:
+  fullname: Alyssa Schroder
+  googleplus: https://www.google.com/+MotaquillahMaddane
+  # github: kronik3r
+  twitter: electrik_frog
+  # disqus: your_disqus_username
+
+# google_analytics: 'UA-XXXXXXXX-X'
+
+# Handling Reading
+exclude: ["README.md", "README.html"]
+
+# Build settings
+markdown: kramdown
