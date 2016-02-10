@@ -3,8 +3,8 @@ title: Alyssa Schroder
 description: >
   Portfolio website for artist Alyssa Schroder
 
-baseurl: "/alyssa-portfolio" # the subpath of your site, e.g. /blog/
-url: "http://alyssaschroder.github.io/alyssa-portfolio" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://alyssaschroder.com" # the base hostname & protocol for your site
 
 author:
   fullname: Alyssa Schroder
