@@ -4,10 +4,11 @@
 
         <ul class="menu">
             <li class="menu__entry"><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
-            <li class="menu__entry"><a href="{{ '/sketches' | prepend: site.baseurl }}">Sketches</a></li>
-            <li class="menu__entry"><a href="{{ '/watercolour' | prepend: site.baseurl }}">Watercolour</a></li>
-            <li class="menu__entry"><a href="{{ '/ink' | prepend: site.baseurl }}">Ink</a></li>
-            <li class="menu__entry"><a href="{{ '/acrylic' | prepend: site.baseurl }}">Acrylic</a></li>
+            {% for category in site.data.categories %}
+                <li class="menu__entry"><a href="{{ site.baseurl }}/{{ category.slug }}">{{category.name}}</a></li>
+            {% endfor %}
+
+            <li class="menu__entry"><a href="{{ '/contact' | prepend: site.baseurl }}">Contact</a></li>
         </ul>
     </div>
 

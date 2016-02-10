@@ -2,11 +2,8 @@
   name: Sketches
   info: Here is some optional info on sketches. Working on gallery below.
 
-- slug: watercolour
-  name: Watercolour
+- slug: watercolour-ink
+  name: "Watercolour & Ink"
 
 - slug: acrylic
   name: Acrylic
-
-- slug: ink
-  name: Ink
