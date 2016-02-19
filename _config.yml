@@ -8,10 +8,11 @@ url: "http://alyssaschroder.com" # the base hostname & protocol for your site
 
 author:
   fullname: Alyssa Schroder
-  googleplus: https://www.google.com/+MotaquillahMaddane
+  # googleplus: https://www.google.com/+MotaquillahMaddane
   # github: kronik3r
-  twitter: electrik_frog
+  twitter: lyss_schroder
   # disqus: your_disqus_username
+  facebook: AlyssaPianoStudio
 
 # google_analytics: 'UA-XXXXXXXX-X'
 
