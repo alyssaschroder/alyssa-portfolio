@@ -2,28 +2,7 @@
 layout: default
 ---
 {% include category/title.html %}
-<!--
-<ul class="list-posts">
-    {% assign empty_category = true %}
-    {% for post in site.posts %}
-        {% if post.categories contains page.category %}
-            <li class="post-teaser">
-                <a href="{{ post.url | prepend: site.baseurl }}">
-                    <span class="post-teaser__title">{{ post.title }}</span>
-                    <span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>
-                </a>
-            </li>
-            {% assign empty_category = false %}
-        {% endif %}
-    {% endfor %}
 
-    {% if empty_category %}
-        <li class="empty-post-list">
-            It seems that there are no images for this category.
-        </li>
-    {% endif %}
-</ul>
- -->
 <div id="gallery">
     <div id="controls"></div>
     <div id="loading"></div>
@@ -31,76 +10,27 @@ layout: default
     <div id="caption"></div>
     <div id="thumbs">
         <ul class="thumbs noscript">
-        <!-- {% assign empty_category = true %}
+        {% assign empty_category = true %}
         {% for post in site.posts %}
-            {% if post.categories contains page.category %} -->
+            {% if post.categories contains page.category %}
             <li>
-                <a class="thumb" name="optionalCustomIdentifier" href="http://placebear.com/g/400/600" title="bearbeearbear">
-                    <img src="http://placebear.com/g/100/150" alt="bearbearbear" />
+                <a class="thumb" name="optionalCustomIdentifier" href="{{ post.image }}" title="{{ post.title }}">
+                    <img  src="{{ post.image }}" alt="{{ post.title }}" />
                 </a>
                 <div class="caption">
-                    img1
+                    {{ post.content }}
                 </div>
             </li>
-            <li>
-                <a class="thumb" name="optionalCustomIdentifier" href="http://placebear.com/g/600/400" title="bearbeearbear">
-                    <img src="http://placebear.com/g/150/100" alt="bearbearbear" />
-                </a>
-                <div class="caption">
-                    img2
-                </div>
-            </li>
-            <li>
-                <a class="thumb" name="optionalCustomIdentifier" href="http://placebear.com/g/402/602" title="bearbeearbear">
-                    <img src="http://placebear.com/g/102/152" alt="bearbearbear" />
-                </a>
-                <div class="caption">
-                    img3
-                </div>
-            </li>
-            <li>
-                <a class="thumb" name="optionalCustomIdentifier" href="http://placebear.com/g/403/603" title="bearbeearbear">
-                    <img src="http://placebear.com/g/103/153" alt="bearbearbear" />
-                </a>
-                <div class="caption">
-                    img4
-                </div>
-            </li>
-            <li>
-                <a class="thumb" name="optionalCustomIdentifier" href="http://placebear.com/g/400/600" title="bearbeearbear">
-                    <img src="http://placebear.com/g/100/150" alt="bearbearbear" />
-                </a>
-                <div class="caption">
-                    img1
-                </div>
-            </li>
-            <li>
-                <a class="thumb" name="optionalCustomIdentifier" href="http://placebear.com/g/600/400" title="bearbeearbear">
-                    <img src="http://placebear.com/g/150/100" alt="bearbearbear" />
-                </a>
-                <div class="caption">
-                    img2
-                </div>
-            </li>
-            <li>
-                <a class="thumb" name="optionalCustomIdentifier" href="http://placebear.com/g/402/602" title="bearbeearbear">
-                    <img src="http://placebear.com/g/102/152" alt="bearbearbear" />
-                </a>
-                <div class="caption">
-                    img3
-                </div>
-            </li>
-            <li>
-                <a class="thumb" name="optionalCustomIdentifier" href="http://placebear.com/g/403/603" title="bearbeearbear">
-                    <img src="http://placebear.com/g/103/153" alt="bearbearbear" />
-                </a>
-                <div class="caption">
-                    img4
-                </div>
-            </li>
-            <!-- {% assign empty_category = false %}
+            {% assign empty_category = false %}
             {% endif %}
-        {% endfor %} -->
+        {% endfor %}
+
+
+        {% if empty_category %}
+            <li class="empty-post-list">
+                It seems that there are no images for this category.
+            </li>
+        {% endif %}
         </ul>
     </div>
  </div>

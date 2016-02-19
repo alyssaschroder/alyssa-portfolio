@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "My Image 2"
+image: "http://placebear.com/g/600/400"
+date:   2015-09-06
+categories: [sketches]
+---
+ Caption lalal

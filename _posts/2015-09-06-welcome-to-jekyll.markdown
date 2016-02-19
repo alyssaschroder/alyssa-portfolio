@@ -3,7 +3,7 @@ layout: post
 title:  "Welcome to Jekyll!"
 subtitle: "Feel home!"
 date:   2015-09-06 23:34:01
-categories: [sketches, ink]
+categories: []
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
@@ -35,3 +35,7 @@ main "gallery" topnav links will filter posts by category
 site.posts
 
 if each image is a post... you have a lot of posts to upkeep... and you dont want to click into pages just containing an image... what if each gallery grabs the list of images from an associated post... then all she has to do is update the imageurl in the corresponding post to include it in the gallery
+
+an image has a thumbnail, a full size, and a caption, and a title
+
+since imaes have a bunch of metadata... just have her create a "post" for a single image in the gallery

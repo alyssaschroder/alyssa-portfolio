@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "My Image"
+image: "http://placebear.com/g/400/600"
+date:   2015-09-06
+categories: [sketches]
+---
+ Caption 2 !!!
