@@ -624,17 +624,18 @@
 			buildImage: function(imageData, isSync) {
 				var gallery = this;
 				var nextIndex = this.getNextIndex(imageData.index);
+				console.log(imageData.image);
 
 				// Construct new hidden span for the image
 				var newSlide = this.$imageContainer
-					.append('<span class="image-wrapper current"><a class="advance-link" rel="history" href="#'+this.data[nextIndex].hash+'" title="'+imageData.title+'">&nbsp;</a></span>')
+					.append('<span class="image-wrapper current"><div onclick="togglePopup(\'' + encodeURIComponent(imageData.slideUrl) + '\')">&nbsp;</span>')
 					.find('span.current').css('opacity', '0');
-				
-				newSlide.find('a')
-					.append(imageData.image)
-					.click(function(e) {
-						gallery.clickHandler(e, this);
-					});
+				//<a class="advance-link" rel="history" href="#'+this.data[nextIndex].hash+'" title="'+imageData.title+'">
+				newSlide.find('div')
+					.append(imageData.image);
+					// .click(function(e) {
+					// 	gallery.clickHandler(e, this);
+					// });
 				
 				var newCaption = 0;
 				if (this.$captionContainer) {
