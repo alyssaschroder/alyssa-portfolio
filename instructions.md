@@ -91,7 +91,7 @@ Notes for Jess:
 - setup ssh key
 - clone repo
 - install ruby and jekyll so she can run a local server & verify
-
+- install git gui for later
 
 # Making changes
 
@@ -172,3 +172,4 @@ You should now see your local files at `localhost:4000` (type this into the addr
 # Want to learn more!?
 
 If you want any explanations of computer speak, just let me know. :P
+If you prefer to pick and choose which files to publish or save as backup, there is another way I could show you after you're comfortable with the tools I have given you.
