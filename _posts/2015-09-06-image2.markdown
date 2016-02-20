@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "My Image"
-image: "http://placebear.com/g/400/600"
+image: "http://placebear.com/g/401/601"
+thumb: image: "http://placebear.com/g/401/601"
 date:   2015-09-06
 categories: [sketches]
 ---
