@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo "Publishing changes to gh-pages branch! Your changes should appear live within a couple minutes of running this."
+cd ~/alyssa-portfolio;
+git stash;
+git checkout master;
+git push origin master;
+git checkout gh-pages;
+git merge -m "Merging branch master into gh-pages" master;
+git pull origin gh-pages;
+git push origin gh-pages;
+git checkout master;
+git stash pop;
+echo "Done!"
+read -p "Press Return to Close..."

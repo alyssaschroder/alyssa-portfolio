@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Saving changes locally and remotely on master branch..."
+cd ~/alyssa-portfolio;
+git checkout master;
+git add .;
+git commit -m "$1 - from save";
+git push origin master;
+echo "Done!"
+read -p "Press Return to Close..."
