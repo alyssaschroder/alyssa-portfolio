@@ -5,14 +5,17 @@ subtitle: "step by step"
 permalink: /instructions/
 ---
 
+
 #What I need from you:
 
 ####Text:
+
 - Title you want on the page tab
 - ~~About me section~~
 
 
 ####Images:
+
 - main image for homepage and about section (can be different)
 - Images for gallery. Each image will need:
     - jpg or png file
@@ -22,11 +25,13 @@ permalink: /instructions/
     - an order number if you care about that
 
 ####Links:
+
 - any social networks you want to link to? I already included twitter and fb (see the logos in the top right)
 - I was thinking maybe we can link to past or upcoming shows on the about or contact page too, what do you think?
 
 
 ####Changes:
+
 - let me know any aesthetic changes you want to colours, placement, fonts, etc
 - any bugs you see
 
@@ -38,9 +43,11 @@ Take a deep breath and get ready to learn some stuffs.
 ##Terminology to know
 
 ####Git:
+
 A convenient way to manage changes to code and content. Any changes you make are easily reversible and previous content is never lost if you make a mistake.
 
 ####Github:
+
 Basically a cloud storage version of git so we can collaborate, publish the site, and nothing gets lost.
 
 I have made you a [github](http://github.com) account:
@@ -51,9 +58,11 @@ pass: jessjess123
 You will need this account to make changes to the site.
 
 ####Terminal:
+
 Allows you to type commands that directly speak to the computer. I have provided you some basic commands to run in order to save and publish your changes, but more on that later. You can also run them by double clicking, but this way you can feel like a hacker. ;)
 
 ####Markdown:
+
 Markdown is a markup language. It allows you to write readable html content without any knowledge of html. The content on your pages is all written in markdown, and then converted into html after it is published. (You can of course write it in html if you want instead if you like.)
 
 For example to _italicize_, write `_italicize_`, etc.
@@ -61,6 +70,7 @@ For example to _italicize_, write `_italicize_`, etc.
 Full rundown [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
 ##Steps to follow to setup your environment:
+
 1) Enable remote login on your computer, by following the steps [here](https://support.apple.com/kb/PH18726?locale=en_US).
 
 2) go [here](http://git-scm.com/downloads) and click download for Mac. Run the install wizard and follow the steps.
@@ -74,6 +84,7 @@ Full rundown [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheats
 After these steps, you should be able to make changes and publish them!
 
 Notes for Jess:
+
 - Check git version to verify install.
 - setup ssh key
 - clone repo
