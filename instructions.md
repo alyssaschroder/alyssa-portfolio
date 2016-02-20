@@ -1,8 +1,10 @@
 ---
 layout: page
 title: Instructions for Alyssa
+subtitle: "step by step"
 permalink: /instructions/
 ---
+
 #What I need from you:
 
 ####Text:
