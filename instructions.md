@@ -23,7 +23,7 @@ permalink: /instructions/
     - any other information you want to see in a caption
     - a date
     - an order number if you care about that
-- square image to me the tiny image on the tab you see on other pages. Give me a small square image no smaller than 310x310px
+- square image for the tiny logo on the tab. Give me a small square image no smaller than 310x310px.
 
 #### Links:
 
@@ -93,9 +93,40 @@ Notes for Jess:
 - install ruby and jekyll so she can run a local server & verify
 
 
-## Making changes
+# Making changes
 
-### The code
+Follow these steps to make any changes.
+
+1) **Start**: Paste the following into the terminal and press enter (i.e. run these commands):
+
+    cd ~/alyssa-portfolio;
+    ./start;
+
+This step ensures any changes I have made are now downloaded to your computer.
+Don't worry too much about the output from this.
+
+2) Make any changes, and preview them as necessary (more details on this to follow). When you are satisfied with your changes, continue to the next step.
+
+3) **Save**: Run the following:
+
+    ./save "my save message here"
+
+Be sure to include a save message (in quotes) that summarizes what you added!
+This command will take any changes you have made, and save them on github as a backup, as well as allowing me to see any changes you've made.
+**This does not publish to your site!** Use the `./save` command **before** publishing, or if you want to save progress without seeing your changes live.
+
+4) **Publish**: Run the following:
+
+    ./publish
+
+This command publishes any changes you have saved to alyssaschroder.com.
+This is always reversible, but it is best to preview your work prior to publishing it.
+After running the `./publish` command you should see your changes live within a few minutes.
+
+And thats it! If at any point you get stuck, something doesn't work, or you get an error message, just copy paste the output from the commands to me.
+
+
+## The code: which files should you care about?
 Open finder and look at the `alyssa-portfolio` directory under your home directory (likely called `alyssaschroder`). Here you will see a whole bunch of folders and files that you don't need to care about. The only ones you need are as follows:
 
 - **instructions.md** -- contains this information.
@@ -108,7 +139,8 @@ Open finder and look at the `alyssa-portfolio` directory under your home directo
 
 - **/_posts/** -- this directory contains data for the images in your galleries. See "Adding a new image" below for more details on these files.
 
-### Adding a new image
+
+##Adding a new image
 
 Create a  new file in the `/posts/` directory. The file extension must be `.md` or `.markdown`. Alphabetical order dictates the order of the images in the galleries (if this is annoying for you, I can add change this).
 
@@ -127,16 +159,16 @@ The content of the file must follow this convention:
 Choose one or multiple categories your image belongs in.
 
 
-### Previewing changes
+## Previewing changes
 
-TODO run jekyll serve --watch and go to localhost:4000 in browser
+In order to preview your changes, open a terminal and run the following:
 
-### Saving and Publishing changes
+    cd ~/alyssa-portfolio;
+    jekyll serve --watch;
 
-TODO
+You should now see your local files at `localhost:4000` (type this into the address bar in your web browser).
 
-before doing anything run ./start
 
-to save your changes, run ./save
+# Want to learn more!?
 
-publish run ./publish
+If you want any explanations of computer speak, just let me know. :P
