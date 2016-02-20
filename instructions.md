@@ -34,6 +34,7 @@ permalink: /instructions/
 
 - let me know any aesthetic changes you want to colours, placement, fonts, etc
 - any bugs you see
+- also etransfer me $14.12 for the domain when you get a chance. (The email receipt i sent was in USD)
 
 
 # How to setup your computer
