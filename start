@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "Grabbing any remote changes..."
+cd ~/alyssa-portfolio;
+git stash;
+git checkout master;
+git pull origin master;
+git stash pop;
+echo "Done! Get to work!"
+echo "When you are ready to save (commit) your changes, run "./save" followed by a message."
+read -p "Press Return to Close..."
