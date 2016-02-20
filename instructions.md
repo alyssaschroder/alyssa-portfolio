@@ -23,6 +23,7 @@ permalink: /instructions/
     - any other information you want to see in a caption
     - a date
     - an order number if you care about that
+- square image to me the tiny image on the tab you see on other pages. Give me a small square image no smaller than 310x310px
 
 #### Links:
 
