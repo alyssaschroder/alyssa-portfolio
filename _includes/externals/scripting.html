@@ -42,4 +42,13 @@
         onImageRemoved:            undefined  // accepts a delegate like such: function(imageData, $li) { ... }
     });
 });
+
+var togglePopup = function (imageData) {
+
+    var cont = $('.popupContainer')
+    if (imageData) {
+        cont.find('.popup .imageContainer img').attr("src", decodeURIComponent(imageData));
+    }
+    cont.toggle();
+};
 </script>
