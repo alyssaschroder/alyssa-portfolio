@@ -11,7 +11,7 @@ permalink: /instructions/
 #### Text:
 
 - Title you want on the page tab
-- ~~About me section~~
+- <del>About me section</del>
 
 
 #### Images:
@@ -63,11 +63,11 @@ Allows you to type commands that directly speak to the computer. I have provided
 
 #### Markdown:
 
-Markdown is a markup language. It allows you to write readable html content without any knowledge of html. The content on your pages is all written in markdown, and then converted into html after it is published. (You can of course write it in html if you want instead if you like.)
+Markdown is a markup language. It allows you to write readable html content without any knowledge of html. The content on your pages is all written in markdown, and then converted into html after it is published. (You can of course write it in html instead if you like.)
 
-For example to _italicize_, write `_italicize_`, etc.
+For example to _italicize_, write `_italicize_`, or **bold** write `**bold**`.
 
-Full rundown [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+Full rundown of the syntax [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
 ## Steps to follow to setup your environment:
 
@@ -96,7 +96,7 @@ Notes for Jess:
 ### The code
 Open finder and look at the `alyssa-portfolio` directory under your home directory (likely called `alyssaschroder`). Here you will see a whole bunch of folders and files that you don't need to care about. The only ones you need are as follows:
 
-- **instructions.md** -- contains this information. (so does README.md)
+- **instructions.md** -- contains this information.
 
 - **about.md** -- contains the content for your about page. If you ever want to change the text or images on that page, look here.
 
