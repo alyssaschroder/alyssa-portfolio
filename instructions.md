@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Instructions for Alyssa
+title: "Instructions for Alyssa"
 subtitle: "step by step"
 permalink: /instructions/
 ---
