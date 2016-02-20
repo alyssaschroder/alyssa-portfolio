@@ -8,30 +8,31 @@ permalink: /instructions/
 
 # What I need from you:
 
-#### Text:
+### Text:
 
 - Title you want on the page tab
 - <del>About me section</del>
 
 
-#### Images:
+### Images:
 
 - main image for homepage and about section (can be different)
 - Images for gallery. Each image will need:
-    - jpg or png file
+    - jpg or png file, somewhere around 1000x700px to 1920x1080px in size
+    - another thumbnail file, 150px in height
     - title
     - any other information you want to see in a caption
     - a date
     - an order number if you care about that
 - square image for the tiny logo on the tab. Give me a small square image no smaller than 310x310px.
 
-#### Links:
+### Links:
 
 - any social networks you want to link to? I already included twitter and fb (see the logos in the top right)
 - I was thinking maybe we can link to past or upcoming shows on the about or contact page too, what do you think?
 
 
-#### Changes:
+### Changes:
 
 - let me know any aesthetic changes you want to colours, placement, fonts, etc
 - any bugs you see
